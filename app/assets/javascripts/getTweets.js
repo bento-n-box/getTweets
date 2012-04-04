@@ -12,6 +12,8 @@ $(document).ready(function(){
 				console.log(tweets[i].text);
 				$('#query').append("<li>" + tweets[i].text + "</li>")
 				
+				
+				
 			}
 		})
 	
